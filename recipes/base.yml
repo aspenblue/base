@@ -14,7 +14,6 @@ modules:
 
   - from-file: common/20-system.yml
   - from-file: common/30-apps.yml
-  - from-file: common/80-cleanup.yml
 
 
   # -----------------------------------------------
