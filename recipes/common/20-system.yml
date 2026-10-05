@@ -14,4 +14,4 @@ modules:
 
   - type: script
     scripts:
-      - system-chmod-ublue.sh
+      - system-chmod-aspen.sh
