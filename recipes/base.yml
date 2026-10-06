@@ -12,9 +12,8 @@ image-version: latest
 
 modules:
 
-  - from-file: common/20-system.yml
-  - from-file: common/30-apps.yml
-  - from-file: common/90-post.yml
+  - from-file: 20-system/common/system.yml
+  - from-file: 30-apps/common/apps.yml
 
 
   # -----------------------------------------------
