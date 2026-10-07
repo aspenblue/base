@@ -12,8 +12,8 @@ modules:
       install-weak-deps: false
       packages:
 
-        # Tools
-        - nautilus
+        # Basic
+        - nautilus                        # Файлы
       
 
   # -----------------------------------------------

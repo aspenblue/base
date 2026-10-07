@@ -27,7 +27,7 @@ reserve_space       = true       # reserve compositor exclusive zone / push wind
 # active_scale        = 1.0        # icon scale for the focused app (clamped 0.1–1.75)
 # inactive_scale      = 0.85       # icon scale for non-focused apps (clamped 0.1–1.0)
 magnification       = true       # magnify icons near the pointer (macOS-style)
-# magnification_scale = 1.45       # max scale multiplier at the pointer center (1.0–2.0; 1.0 = off)
+magnification_scale = 1.4        # max scale multiplier at the pointer center (1.0–2.0; 1.0 = off)
 active_opacity      = 1.0
 inactive_opacity    = 1.0
 show_instance_count = false       # badge with window count when an app has 2+ windows
@@ -36,7 +36,7 @@ show_dots           = true       # running-window indicator dots below app icons
 # launcher_icon       = "grid-dots" # Tabler glyph for the launcher button
 # launcher_custom_image          = ""    # image path; overrides launcher_icon when set
 # launcher_custom_image_colorize = false # tint the custom image with the icon color
-pinned = ["foot", "org.mozilla.firefox"]
+# pinned = ["foot", "org.mozilla.firefox"]
 
 [include]
 files = [

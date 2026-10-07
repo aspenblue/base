@@ -6,7 +6,8 @@ Images
     - Isolite - snap
     - Ipolite - podman
 - Hyprite - hyprland
-- Selenite - swayfx
+- Swanite - swayfx
 - Lewisite - labwc
 - Pyrite - pantheon
+- Citrine - cinnamon
 - Anthracite
