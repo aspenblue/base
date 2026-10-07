@@ -70,9 +70,3 @@ modules:
 
           # Apps
           - io.github.kolunmi.Bazaar      # Магазин приложений
-
-          # Tools
-          - org.gnome.Characters          # Символы
-          - org.gnome.font-viewer         # Шрифты
-          - org.gnome.Connections         # RDP
-          - org.gnome.baobab              # Использование диска

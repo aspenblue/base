@@ -1,0 +1,93 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/module-list-v1.json
+
+modules:
+
+  # -----------------------------------------------
+  # Cosmic Ext repository
+  # -----------------------------------------------
+
+  - type: dnf
+    repos:
+      copr:
+        - ligenix/cosmic-ext
+
+
+  # -----------------------------------------------
+  # Terra repository
+  # -----------------------------------------------
+
+  - type: dnf
+    repos:
+      files:
+        - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo        
+
+
+  # -----------------------------------------------
+  # Desktop packages
+  # -----------------------------------------------
+
+  - type: dnf
+    install:
+      install-weak-deps: false
+      packages:
+
+        # Basic
+        - cosmic-file                   # Файлы
+        # -                               # Архивы
+        - cosmic-ext-calculator         # Калькулятор
+        - cosmic-edit                   # Блокнот
+        # -                               # Часы и будильник
+        - cosmic-ext-xcalendar          # Календарь
+        - cosmic-ext-tasks              # Задачи
+        # -                               # Иконки
+        # -                               # Карты
+        # -                               # Заметки
+
+        # Media
+        - cosmic-viewer                 # Изображения
+        - cosmic-player                 # Видео
+        # - cosmic-player                 # Музыка
+        - cosmic-ext-camera             # Камера
+
+        # Office
+        # -                               # PDF, DJVu
+
+        # Apps
+        - cosmic-store                  # Магазин приложений
+
+        - gucharmap                     # Символы
+        # -                               # Шрифты
+        # -                               # RDP
+        # -                               # Использование диска
+        # Tools
+        # -                               # Символы
+        # -                               # Шрифты
+        # -                               # RDP
+        - cosmic-dirstat                # Использование диска
+      
+
+  # -----------------------------------------------
+  # Desktop flatpaks
+  # -----------------------------------------------
+
+  - type: default-flatpaks
+    configurations:
+      - notify: true
+        scope: system
+        install:
+
+          # Media
+          # - io.bassi.Amberol              # Музыка
+
+          # Office
+          - org.onlyoffice.desktopeditors # Офис
+
+          # Code
+          # -                               # Редактор кода
+
+          # Web
+          - org.mozilla.firefox           # Браузер
+          - com.getmailspring.Mailspring  # Почта
+          - dev.heppen.webapps            # Веб-приложения
+          # -                               # Помощник авторизации wifi

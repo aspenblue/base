@@ -10,7 +10,7 @@ modules:
   - type: dnf
     repos:
       files:
-        - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo  
+        - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
 
 
   # -----------------------------------------------
