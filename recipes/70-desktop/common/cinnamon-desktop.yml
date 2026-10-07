@@ -18,7 +18,7 @@ modules:
         # - peazip-gtk3                   # Архивы
         - qalculate-gtk                 # Калькулятор
         - xed                           # Блокнот
-        - clockenstein                  # Часы и будильник
+        # -                               # Часы и будильник
         # -                               # Календарь
         # -                               # Задачи
         # -                               # Иконки
@@ -26,9 +26,9 @@ modules:
         - sticky                        # Заметки
 
         # Media
-        - xviewer                       # Изображения
+        - ristretto                     # Изображения
         - pix                           # Изображения
-        - xplayer                       # Видео
+        - celluloid                     # Видео
         # -                               # Камера
 
         # Office
