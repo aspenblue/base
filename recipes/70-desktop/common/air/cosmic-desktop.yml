@@ -33,7 +33,7 @@ modules:
       packages:
 
         # Basic
-        - cosmic-file                   # Файлы
+        - cosmic-fileы                  # Файлы
         # -                               # Архивы
         - cosmic-ext-calculator         # Калькулятор
         - cosmic-edit                   # Блокнот
@@ -51,20 +51,20 @@ modules:
         - cosmic-ext-camera             # Камера
 
         # Office
-        # -                               # PDF, DJVu
+        # - cosmic-reader                 # PDF, DJVu
 
         # Apps
         - cosmic-store                  # Магазин приложений
 
+        # Tools
         - gucharmap                     # Символы
         # -                               # Шрифты
         # -                               # RDP
-        # -                               # Использование диска
-        # Tools
-        # -                               # Символы
-        # -                               # Шрифты
-        # -                               # RDP
-        - cosmic-dirstat                # Использование диска
+        - cosmic-ext-dirstat            # Использование диска
+        - cosmic-ext-storage            # Диски
+        - cosmic-ext-disks              # Диски
+        - cosmic-ext-examine            # Система
+        - cosmic-monitor                # Мониторинг
       
 
   # -----------------------------------------------
