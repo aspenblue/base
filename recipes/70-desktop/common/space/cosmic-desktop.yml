@@ -35,12 +35,13 @@ modules:
         # Basic
         - cosmic-settings-daemon
         - cosmic-files                  # Файлы
+        - cosmic-term                   # Терминал
         # -                               # Архивы
         - cosmic-ext-calculator         # Калькулятор
         - cosmic-edit                   # Блокнот
         # -                               # Часы и будильник
         - cosmic-ext-xcalendar          # Календарь
-        - cosmic-ext-tasks              # Задачи
+        # - cosmic-ext-tasks              # Задачи
         # -                               # Иконки
         # -                               # Карты
         # -                               # Заметки
@@ -62,7 +63,7 @@ modules:
         # -                               # Шрифты
         # -                               # RDP
         # - cosmic-ext-dirstat            # Использование диска
-        - cosmic-ext-storage            # Диски
+        # - cosmic-ext-storage            # Диски
         - cosmic-ext-disks              # Диски
         - cosmic-ext-examine            # Система
         - cosmic-monitor                # Мониторинг
@@ -79,7 +80,7 @@ modules:
         install:
 
           # Media
-          # - io.bassi.Amberol              # Музыка
+          - io.bassi.Amberol              # Музыка
 
           # Office
           - org.onlyoffice.desktopeditors # Офис

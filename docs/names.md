@@ -15,6 +15,6 @@
 ## Flavours
 - default - gnome apps (except Pyrite, Citrine)
 - plus - pantheon apps
-- air - cosmic apps
-- mint - cinnamon apps (xapps)
+- space - cosmic apps
+- air - cinnamon apps (xapps)
 - lite - mate apps

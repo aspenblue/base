@@ -25,6 +25,7 @@ modules:
         # Basic
         - elementary-files              # Файлы
         - elementary-files-portal
+        - elementary-terminal           # Терминал
         # -                               # Архивы
 
         # Code
@@ -37,7 +38,7 @@ modules:
         # -                               # Шрифты
         # -                               # RDP
         - gucharmap                     # Символы
-        # -                               # Использование диска         
+        # -                               # Использование диска      
       
 
   # -----------------------------------------------

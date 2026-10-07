@@ -14,6 +14,7 @@ modules:
 
         # Basic
         - nemo                          # Файлы
+        - gnome-terminal                # Терминал
         - engrampa                      # Архивы
         # - peazip-gtk3                   # Архивы
         - qalculate-gtk                 # Калькулятор
