@@ -33,7 +33,7 @@ modules:
       packages:
 
         # Basic
-        - cosmic-fileы                  # Файлы
+        - cosmic-files                  # Файлы
         # -                               # Архивы
         - cosmic-ext-calculator         # Калькулятор
         - cosmic-edit                   # Блокнот
@@ -60,7 +60,7 @@ modules:
         - gucharmap                     # Символы
         # -                               # Шрифты
         # -                               # RDP
-        - cosmic-ext-dirstat            # Использование диска
+        # - cosmic-ext-dirstat            # Использование диска
         - cosmic-ext-storage            # Диски
         - cosmic-ext-disks              # Диски
         - cosmic-ext-examine            # Система
