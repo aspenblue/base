@@ -9,5 +9,5 @@ modules:
 
   - type: files
     files:
-      - source: rootfs/pantheon-noctalia-connector
+      - source: rootfs/cinnamon-noctalia-connector
         destination: /

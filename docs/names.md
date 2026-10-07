@@ -1,4 +1,4 @@
-Images
+## Images
 
 - Corite - base image
 - Iolite - server
@@ -11,3 +11,9 @@ Images
 - Pyrite - pantheon
 - Citrine - cinnamon
 - Anthracite
+
+## Flavours
+- default - gnome apps (except Pyrite, Citrine)
+- plus - pantheon apps
+- air - cinnamon apps (xapps)
+- lite - mate apps
