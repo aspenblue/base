@@ -33,6 +33,7 @@ modules:
       packages:
 
         # Basic
+        - cosmic-settings-daemon
         - cosmic-files                  # Файлы
         # -                               # Архивы
         - cosmic-ext-calculator         # Калькулятор
