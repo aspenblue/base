@@ -29,22 +29,19 @@ modules:
         - xviewer                       # Изображения
         - pix                           # Изображения
         - xplayer                       # Видео
-        - webcamoid                     # Камера
+        # -                               # Камера
 
         # Office
         - xreader                       # PDF, DJVu
-        - xepub                         # ePub
-        - thingy                        # Каталог документов
 
         # Web
         - webapp-manager                # Веб-приложения
 
         # Tools
-        - mate-character-map            # Символы
-        - font-manager                  # Шрифты
-        # -                             # RDP
-        # -                             # Использование диска
-        - bulky                         # Массовое переименование
+        - gucharmap                     # Символы
+        # -                               # Шрифты
+        # -                               # RDP
+        # -                               # Использование диска
       
 
   # -----------------------------------------------
