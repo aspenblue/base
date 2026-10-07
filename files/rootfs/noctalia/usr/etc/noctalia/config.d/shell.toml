@@ -1,4 +1,5 @@
 [shell]
+polkit_agent        = true
 corner_radius_scale = 0.25
 # -> popup_shadows       = true            # draw drop shadows behind popups and dropdowns
 
