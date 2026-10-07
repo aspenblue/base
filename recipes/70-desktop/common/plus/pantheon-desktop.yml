@@ -47,7 +47,7 @@ modules:
 
   - type: default-flatpaks
     configurations:
-      - notify: true
+      - notify: false
         scope: system
         install:
 
@@ -77,7 +77,7 @@ modules:
 
   - type: default-flatpaks
     configurations:
-      - notify: true
+      - notify: false
         scope: system
         repo:
           url: https://flatpak.elementary.io/repo.flatpakrepo
