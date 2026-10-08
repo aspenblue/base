@@ -15,11 +15,11 @@ modules:
         # Basic
         - thunar                        # Файлы
         - xfce4-terminal                # Терминал
-        # - xarchive                      # Архивы
-        # - mate-calc                     # Калькулятор
+        - xarchiver                     # Архивы
+        - galculator                    # Калькулятор
         - mousepad                      # Блокнот
         # -                               # Часы и будильник
-        - orage                         # Календарь
+        # - orage                         # Календарь
         # -                               # Задачи
         # -                               # Иконки
         # -                               # Карты
@@ -27,11 +27,13 @@ modules:
 
         # Media
         - ristretto                     # Изображения
+        - audacious                     # Музыка
+        - audacious-plugins
         - parole                        # Видео
-        # -                               # Камера
+        - cheese                        # Камера
 
         # Office
-        # - xreader                       # PDF, DJVu
+        - xreader                       # PDF, DJVu
         # - atril                         # PDF, DJVu
 
         # Web

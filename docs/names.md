@@ -13,8 +13,7 @@
 - Anthracite
 
 ## Flavours
-- default - gnome apps (except Pyrite, Citrine)
+- default - gnome apps
 - plus - pantheon apps
-- space - cosmic apps
-- air - cinnamon apps (xapps)
-- lite - mate apps
+- air - xfce apps
+- lite - cinnamon+mate apps
