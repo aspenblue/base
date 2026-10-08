@@ -50,7 +50,7 @@ modules:
         # - mate-character-map            # Символы
         # -                               # Шрифты
         # -                               # RDP
-        - mate-system-tools             # Использование диска
+        # - mate-system-tools             # Использование диска
         - mate-system-monitor           # Мониторинг системы
       
 
