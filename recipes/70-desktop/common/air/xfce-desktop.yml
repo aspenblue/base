@@ -13,18 +13,26 @@ modules:
       packages:
 
         # Basic
-        - nemo                          # Файлы
-        - cinnamon-translations         # Файлы
-        - mate-terminal                 # Терминал
-        - engrampa                      # Архивы
-        - mate-calc                     # Калькулятор
-        - pluma                         # Блокнот
-        - eom                           # Изображения
+        - thunar                        # Файлы
+        - xfce4-terminal                # Терминал
+        - xarchive                      # Архивы
+        # - mate-calc                     # Калькулятор
+        - mousepad                      # Блокнот
+        # -                               # Часы и будильник
+        - orage                         # Календарь
+        # -                               # Задачи
+        # -                               # Иконки
+        # -                               # Карты
+        # - sticky                        # Заметки
+
+        # Media
+        - ristretto                     # Изображения
         - parole                        # Видео
         # -                               # Камера
 
         # Office
-        - atril                         # PDF, DJVu
+        # - xreader                       # PDF, DJVu
+        # - atril                         # PDF, DJVu
 
         # Web
         - webapp-manager                # Веб-приложения
@@ -35,7 +43,7 @@ modules:
         # -                               # Шрифты
         # -                               # RDP
         # - mate-system-tools             # Использование диска
-        - mate-system-monitor           # Мониторинг системы
+        # - mate-system-monitor           # Мониторинг системы
       
 
   # -----------------------------------------------
