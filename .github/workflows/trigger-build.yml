@@ -1,9 +1,9 @@
 name: Trigger AspenBlue build
 
-on:
-  workflow_run:
-    workflows: ["Build AspenBlue Base"]
-    types: [completed]
+# on:
+#   workflow_run:
+#     workflows: ["Build AspenBlue Base"]
+#     types: [completed]
 
 jobs:
   trigger:
