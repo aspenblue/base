@@ -13,15 +13,16 @@ modules:
       packages:
 
         # Basic
-        - caja                          # Файлы
+        # - caja                          # Файлы
         - nemo                          # Файлы
-        - mate-terminal                 # Терминал
+        - cinnamon-translations         # Файлы
+        # - mate-terminal                 # Терминал
         - gnome-terminal                # Терминал
         - engrampa                      # Архивы
         # - peazip-gtk3                   # Архивы
         - mate-calc                     # Калькулятор
         - xed                           # Блокнот
-        - pluma                         # Блокнот
+        # - pluma                         # Блокнот
         # -                               # Часы и будильник
         # -                               # Календарь
         # -                               # Задачи
@@ -30,16 +31,15 @@ modules:
         # - sticky                        # Заметки
 
         # Media
-        - ristretto                     # Изображения
-        - pix                           # Изображения
+        # - ristretto                     # Изображения
+        # - pix                           # Изображения
         # - xviewer                       # Изображения
         - eom                           # Изображения
-        - celluloid                     # Видео
         - parole                        # Видео
         # -                               # Камера
 
         # Office
-        - xreader                       # PDF, DJVu
+        # - xreader                       # PDF, DJVu
         - atril                         # PDF, DJVu
 
         # Web
@@ -50,7 +50,8 @@ modules:
         # - mate-character-map            # Символы
         # -                               # Шрифты
         # -                               # RDP
-        # -                               # Использование диска
+        - mate-system-tools             # Использование диска
+        - mate-system-monitor           # Мониторинг системы
       
 
   # -----------------------------------------------
