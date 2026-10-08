@@ -1,0 +1,81 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/module-list-v1.json
+
+modules:
+
+  # -----------------------------------------------
+  # Desktop packages
+  # -----------------------------------------------
+
+  - type: dnf
+    install:
+      install-weak-deps: false
+      packages:
+
+        # Basic
+        - caja                          # Файлы
+        - nemo                          # Файлы
+        - mate-terminal                 # Терминал
+        - gnome-terminal                # Терминал
+        - engrampa                      # Архивы
+        # - peazip-gtk3                   # Архивы
+        - mate-calc                     # Калькулятор
+        - xed                           # Блокнот
+        - pluma                         # Блокнот
+        # -                               # Часы и будильник
+        # -                               # Календарь
+        # -                               # Задачи
+        # -                               # Иконки
+        # -                               # Карты
+        # - sticky                        # Заметки
+
+        # Media
+        - ristretto                     # Изображения
+        - pix                           # Изображения
+        - xviewer                       # Изображения
+        - eom                           # Изображения
+        - celluloid                     # Видео
+        - parole                        # Видео
+        # -                               # Камера
+
+        # Office
+        - xreader                       # PDF, DJVu
+        - atril                         # PDF, DJVu
+
+        # Web
+        - webapp-manager                # Веб-приложения
+
+        # Tools
+        - gucharmap                     # Символы
+        - mate-character-map            # Символы
+        # -                               # Шрифты
+        # -                               # RDP
+        # -                               # Использование диска
+      
+
+  # -----------------------------------------------
+  # Desktop flatpaks
+  # -----------------------------------------------
+
+  - type: default-flatpaks
+    configurations:
+      - notify: false
+        scope: system
+        install:
+
+          # Media
+          - io.bassi.Amberol              # Музыка
+
+          # Office
+          - org.onlyoffice.desktopeditors # Офис
+
+          # Code
+          # -                               # Редактор кода
+
+          # Web
+          - org.mozilla.firefox           # Браузер
+          - com.getmailspring.Mailspring  # Почта
+          # -                               # Помощник авторизации wifi
+
+          # Apps
+          - io.github.kolunmi.Bazaar      # Магазин приложений
