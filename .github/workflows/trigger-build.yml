@@ -1,0 +1,27 @@
+name: Trigger AspenBlue build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger build in Hyprite
+        env:
+          GH_TOKEN: ${{ secrets.BUILD_TOKEN }}
+        run: |
+          gh workflow run build.yml \
+            --repo aspenblue/hyprite \
+            --ref main
+
+      - name: Trigger build in Swanite
+        env:
+          GH_TOKEN: ${{ secrets.BUILD_TOKEN }}
+        run: |
+          gh workflow run build.yml \
+            --repo aspenblue/swanite \
+            --ref main
