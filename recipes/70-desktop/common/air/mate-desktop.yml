@@ -32,7 +32,7 @@ modules:
         # Media
         - ristretto                     # Изображения
         - pix                           # Изображения
-        - xviewer                       # Изображения
+        # - xviewer                       # Изображения
         - eom                           # Изображения
         - celluloid                     # Видео
         - parole                        # Видео
@@ -47,7 +47,7 @@ modules:
 
         # Tools
         - gucharmap                     # Символы
-        - mate-character-map            # Символы
+        # - mate-character-map            # Символы
         # -                               # Шрифты
         # -                               # RDP
         # -                               # Использование диска
