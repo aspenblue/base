@@ -9,5 +9,5 @@ modules:
 
   - type: files
     files:
-      - source: rootfs/cinnamon-noctalia-connector
+      - source: rootfs/mint-noctalia-connector
         destination: /
