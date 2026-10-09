@@ -4,16 +4,6 @@
 modules:
 
   # -----------------------------------------------
-  # Terra repository
-  # -----------------------------------------------
-
-  - type: dnf
-    repos:
-      files:
-        - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
-
-
-  # -----------------------------------------------
   # Noctalia packages
   # -----------------------------------------------
 

@@ -4,6 +4,17 @@
 modules:
 
   # -----------------------------------------------
+  # Terra repository
+  # -----------------------------------------------
+
+  - type: dnf
+    repos:
+      files:
+        # - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
+        - https://raw.githubusercontent.com/terrapkg/packages/f44/anda/terra/release/terra.repo
+
+
+  # -----------------------------------------------
   # Greeter packages
   # -----------------------------------------------
 
