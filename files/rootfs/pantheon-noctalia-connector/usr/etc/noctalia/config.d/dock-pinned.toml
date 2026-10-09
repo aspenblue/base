@@ -1,2 +1,2 @@
 [dock]
-pinned = ["io.elementary.terminal", "io.elementary.files", "org.mozilla.firefox"]
+pinned = ["foot", "io.elementary.files", "org.mozilla.firefox"]

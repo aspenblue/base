@@ -14,7 +14,7 @@ modules:
 
         # Basic
         - thunar                        # Файлы
-        - xfce4-terminal                # Терминал
+        # - xfce4-terminal                # Терминал
         - xarchiver                     # Архивы
         - galculator                    # Калькулятор
         - mousepad                      # Блокнот

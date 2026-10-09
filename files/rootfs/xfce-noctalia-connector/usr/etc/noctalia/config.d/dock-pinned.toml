@@ -1,2 +1,2 @@
 [dock]
-pinned = ["xfce4-terminal", "thunar", "org.mozilla.firefox"]
+pinned = ["foot", "thunar", "org.mozilla.firefox"]

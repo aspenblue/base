@@ -25,7 +25,7 @@ modules:
         # Basic
         - elementary-files              # Файлы
         - elementary-files-portal
-        - elementary-terminal           # Терминал
+        # - elementary-terminal           # Терминал
         # -                               # Архивы
 
         # Code

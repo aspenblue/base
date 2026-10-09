@@ -15,7 +15,7 @@ modules:
         # Basic
         - nemo                          # Файлы
         - cinnamon-translations         # Файлы
-        - mate-terminal                 # Терминал
+        # - mate-terminal                 # Терминал
         - engrampa                      # Архивы
         - mate-calc                     # Калькулятор
         - pluma                         # Блокнот

@@ -14,7 +14,7 @@ modules:
 
         # Basic
         - nautilus                        # Файлы
-        - gnome-console                   # Терминал
+        # - gnome-console                   # Терминал
 
         - papers
         - gnome-maps
