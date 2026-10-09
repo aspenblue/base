@@ -58,9 +58,6 @@ modules:
         scope: system
         install:
 
-          # Media
-          - io.bassi.Amberol              # Музыка
-
           # Office
           - org.onlyoffice.desktopeditors # Офис
 
