@@ -15,6 +15,9 @@ modules:
         # Basic
         - nautilus                        # Файлы
         - gnome-console                   # Терминал
+
+        - papers
+        - gnome-maps
       
 
   # -----------------------------------------------
@@ -36,7 +39,6 @@ modules:
           # -                               # Задачи
           # -                               # Иконки
           - org.gnome.Maps                # Карты
-          - gnome-maps
 
           # Media
           - io.bassi.Amberol              # Музыка
@@ -46,7 +48,6 @@ modules:
 
           # Office
           - org.gnome.Papers              # PDF, DJVu
-          - papers
           - org.onlyoffice.desktopeditors # Офис
 
           # Code
